@@ -598,7 +598,7 @@ class BackRing {
 
    $html = "
 
-	<div class='wrapper-back-ring mobile_disable'><button type='submit' class='back-ring-button default-btn'>Заказ звонка</button></div>";
+<button type='submit' class='call-back back-ring-button'>Заказ звонка</button>";
 
     $html .= "
 
