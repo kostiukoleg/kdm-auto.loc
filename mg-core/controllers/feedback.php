@@ -15,7 +15,7 @@ class Controllers_Feedback extends BaseController{
 
   function __construct(){
 
-    $html = MG::get('pages')->getPageByUrl('feedback');    
+    $html = MG::get('pages')->getPageByUrl('feedback') || MG::get('pages')->getPageByUrl('index') ;    
     $html['html_content'] = MG::inlineEditor(PREFIX.'page',"html_content", $html['id'], $html['html_content']);
     
     $data = array(

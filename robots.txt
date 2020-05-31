@@ -28,6 +28,3 @@ Disallow: /forgotpass
 Disallow: /registration
 Disallow: /compare
 Disallow: /cart
-Host: ecostyle.pp.ua
-
-Sitemap: http://ecostyle.pp.ua/sitemap.xml
